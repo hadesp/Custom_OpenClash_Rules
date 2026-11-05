@@ -1,0 +1,3444 @@
+{
+  "sourceSHAs": {
+    "rules": "8797f32f403de6743b61b6c8b24b4f5142667974",
+    "geosite": "3895d9a3a76de2c1598a10c5fefc38e3481117fa"
+  },
+  "count": 550,
+  "candidates": 276,
+  "excluded": [
+    {
+      "domain": "ac.uk",
+      "reason": "过宽的教育后缀，未纳入"
+    },
+    {
+      "domain": "d3gs88v2si9epo.cloudfront.net",
+      "reason": "未取得当前官方资产引用证据，隔离待核查"
+    },
+    {
+      "domain": "dlt9ksh5o30zl.cloudfront.net",
+      "reason": "未取得当前官方资产引用证据，隔离待核查"
+    },
+    {
+      "domain": "keai.net",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "keaipublishing.com",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "bmc.com",
+      "reason": "BMC 企业软件域名，不等同于 biomedcentral.com"
+    },
+    {
+      "domain": "cnki.net",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "wanfangdata.com.cn",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "cqvip.com",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "duxiu.com",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "chaoxing.com",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "superlib.net",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "zhangqiaokeyan.com",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "nssd.cn",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "carsi.edu.cn",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "sciengine.com",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "sciopen.com",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "sciencechina.cn",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "sciencepress.cn",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "sciencechina-press.com",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "cas.cn",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "nsfc.gov.cn",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "most.gov.cn",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "edu.cn",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "ac.cn",
+      "reason": "国内域名或中国出版机构，保留现有大陆绕行机制"
+    },
+    {
+      "domain": "edu",
+      "reason": "过宽的教育后缀，未纳入"
+    },
+    {
+      "domain": "edu.au",
+      "reason": "过宽的教育后缀，未纳入"
+    },
+    {
+      "domain": "ac.jp",
+      "reason": "过宽的教育后缀，未纳入"
+    },
+    {
+      "domain": "ac.kr",
+      "reason": "过宽的教育后缀，未纳入"
+    },
+    {
+      "domain": "ac.nz",
+      "reason": "过宽的教育后缀，未纳入"
+    },
+    {
+      "domain": "ac.in",
+      "reason": "过宽的教育后缀，未纳入"
+    },
+    {
+      "domain": "edu.sg",
+      "reason": "过宽的教育后缀，未纳入"
+    },
+    {
+      "domain": "ac.il",
+      "reason": "过宽的教育后缀，未纳入"
+    }
+  ],
+  "sources": [
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cityu.hk",
+      "source": "v2fly/cityu-hk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cityu.edu.hk",
+      "source": "v2fly/cityu-hk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn--uis44a.xn--j6w193g",
+      "source": "v2fly/cityu-hk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn----fr0b94b15d2ue8q7a1o3e.xn--wcvs22d.xn--j6w193g",
+      "source": "v2fly/cityu-hk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cuhk.hk",
+      "source": "v2fly/cuhk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cuhk.edu.hk",
+      "source": "v2fly/cuhk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn--fiq80y.hk",
+      "source": "v2fly/cuhk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn--fiq80y.xn--j6w193g",
+      "source": "v2fly/cuhk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn--fiq80y3xbiwr.hk",
+      "source": "v2fly/cuhk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn--fiq80y3xbiwr.xn--j6w193g",
+      "source": "v2fly/cuhk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn--fiq80y3xbiwrs0kiu9d.hk",
+      "source": "v2fly/cuhk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn--fiq80y3xbiwrs0kiu9d.xn--j6w193g",
+      "source": "v2fly/cuhk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "eduhk.hk",
+      "source": "v2fly/eduhk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "eduhk.edu.hk",
+      "source": "v2fly/eduhk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn--pssu7cz8nr8ibkx1e8a.xn--j6w193g",
+      "source": "v2fly/eduhk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "hkbu.hk",
+      "source": "v2fly/hkbu"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "hkbu.edu.hk",
+      "source": "v2fly/hkbu"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn--pssu7ci3q5oge0ai91q.xn--j6w193g",
+      "source": "v2fly/hkbu"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "hku.hk",
+      "source": "v2fly/hku"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "hku.edu.hk",
+      "source": "v2fly/hku"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn--pssu7cv61af44b.hk",
+      "source": "v2fly/hku"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn--pssu7cv61af44b.xn--j6w193g",
+      "source": "v2fly/hku"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "hkust.hk",
+      "source": "v2fly/hkust"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "hkust.edu.hk",
+      "source": "v2fly/hkust"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn--pssu7ci2j23mp9ny48b.hk",
+      "source": "v2fly/hkust"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn--pssu7ci2j23mp9ny48b.xn--j6w193g",
+      "source": "v2fly/hkust"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "polyu.hk",
+      "source": "v2fly/polyu"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "polyu.edu.hk",
+      "source": "v2fly/polyu"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cpce-polyu.edu.hk",
+      "source": "v2fly/polyu"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "speed-polyu.edu.hk",
+      "source": "v2fly/polyu"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "hkcc-polyu.edu.hk",
+      "source": "v2fly/polyu"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "edu.hk",
+      "source": "v2fly/category-scholar-hk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "xn--wcvs22d.xn--j6w193g",
+      "source": "v2fly/category-scholar-hk"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ac.ir",
+      "source": "v2fly/category-scholar-ir"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "edu.ir",
+      "source": "v2fly/category-scholar-ir"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "iau.ac.ir",
+      "source": "v2fly/category-scholar-ir"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "iranlms.ir",
+      "source": "v2fly/category-scholar-ir"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "jtt.ir",
+      "source": "v2fly/category-scholar-ir"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sanjesh.org",
+      "source": "v2fly/category-scholar-ir"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sharif.edu",
+      "source": "v2fly/category-scholar-ir"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sharif.ir",
+      "source": "v2fly/category-scholar-ir"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "srttu.edu",
+      "source": "v2fly/category-scholar-ir"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cam.ac.uk",
+      "source": "v2fly/cambridge"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cambridge.org",
+      "source": "v2fly/cambridge"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cambridgeschoolshakespeare.com",
+      "source": "v2fly/cambridge"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cambridgedigital.net",
+      "source": "v2fly/cambridge"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cambridgemaths.org",
+      "source": "v2fly/cambridge"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ccdc.cam.ac.uk",
+      "source": "v2fly/cambridge"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "dlib.eastview.com",
+      "source": "v2fly/cambridge"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ic.ac.uk",
+      "source": "v2fly/imperialcollege"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "imperial.ac.uk",
+      "source": "v2fly/imperialcollege"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "imperialbusiness.school",
+      "source": "v2fly/imperialcollege"
+    },
+    {
+      "type": "DOMAIN",
+      "domain": "imperial.insendi.com",
+      "source": "v2fly/imperialcollege"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "amamanualofstyle.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "anb.org",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "blackstonespoliceservice.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "epigeum.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oed.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "omscr.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oup.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ouplaw.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ox.ac.uk",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordaasc.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordartonline.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordbibliographies.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordclinicalpsych.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxforddnb.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordfirstsource.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordhandbooks.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordlawtrove.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordmedicine.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordmusiconline.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordpoliticstrove.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordre.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordreference.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordscholarlyeditions.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordscholarship.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordwesternmusic.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sipriyearbook.org",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ukwhoswho.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "universitypressscholarship.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "veryshortintroductions.com",
+      "source": "v2fly/oup"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "liv.ac.uk",
+      "source": "v2fly/uoliv"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "liverpool.ac.uk",
+      "source": "v2fly/uoliv"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "livinno.org",
+      "source": "v2fly/uoliv"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "opac-project.eu",
+      "source": "v2fly/uoliv"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "apa.org",
+      "source": "v2fly/apa"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "psyccareers.com",
+      "source": "v2fly/apa"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "newisiknowledge.com",
+      "source": "v2fly/sci"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "isiknowledge.com",
+      "source": "v2fly/sci"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "clarivate.com",
+      "source": "v2fly/clarivate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "webofknowledge.com",
+      "source": "v2fly/clarivate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "webofscience.com",
+      "source": "v2fly/clarivate"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "doi.org",
+      "source": "v2fly/doi"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "doi.info",
+      "source": "v2fly/doi"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cell.com",
+      "source": "v2fly/elsevier"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "clinicalkey.com",
+      "source": "v2fly/elsevier"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "els-cdn.com",
+      "source": "v2fly/elsevier"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "elsevier-ae.com",
+      "source": "v2fly/elsevier"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "elsevier.com",
+      "source": "v2fly/elsevier"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "elsevier.io",
+      "source": "v2fly/elsevier"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "engineeringvillage.com",
+      "source": "v2fly/elsevier"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "evise.com",
+      "source": "v2fly/elsevier"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "fundinginstitutional.com",
+      "source": "v2fly/elsevier"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "knovel.com",
+      "source": "v2fly/elsevier"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "mendeley.com",
+      "source": "v2fly/elsevier"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "reaxys.com",
+      "source": "v2fly/elsevier"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scival.com",
+      "source": "v2fly/elsevier"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scopus.com",
+      "source": "v2fly/elsevier"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee.tv",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "tryengineering.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-ccnc.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-ecce.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeemce.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "standardsuniversity.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-region6.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee.ca",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeer10.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeer5.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeer8.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeeusa.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeefoundation.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-into-focus.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-vics.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeeday.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "datasheets360.com",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "globalspec.com",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-isto.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "techstreet.com",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "computer.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "comsoc.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "embs.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "emcs.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "grss-ieee.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-aess.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-cas.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-ceda.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-edusociety.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-ies.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-ims.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-npss.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-pels.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-pes.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-ras.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-sensors.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-tems.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee-uffc.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeeaps.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeecsc.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeecss.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeedeis.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeemagnetics.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeenano.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeeoes.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeesmc.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieeesystemscouncil.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "itsoc.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "mtt.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "photonicssociety.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "signalprocessingsociety.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "technologyandsociety.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "vtsociety.org",
+      "source": "v2fly/ieee"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "mit",
+      "source": "v2fly/mit"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "mit.edu",
+      "source": "v2fly/mit"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "mit.net",
+      "source": "v2fly/mit"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "mitpressjournals.org",
+      "source": "v2fly/mit"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "serialssolutions.com",
+      "source": "v2fly/proquest"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "proquest.com",
+      "source": "v2fly/proquest"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sci-hub.se",
+      "source": "v2fly/sci-hub"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sci-hub.ee",
+      "source": "v2fly/sci-hub"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sci-hub.it.nf",
+      "source": "v2fly/sci-hub"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sci-hub.mksa.top",
+      "source": "v2fly/sci-hub"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sci-hub.st",
+      "source": "v2fly/sci-hub"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sci.hubg.org",
+      "source": "v2fly/sci-hub"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sciencedirect.com",
+      "source": "v2fly/sciencedirect"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sciencedirectassets.com",
+      "source": "v2fly/sciencedirect"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "apress.com",
+      "source": "v2fly/springer"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "springer.com",
+      "source": "v2fly/springer"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "springerlink.com",
+      "source": "v2fly/springer"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "springernature.com",
+      "source": "v2fly/springer"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "wkap.nl",
+      "source": "v2fly/springer"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "tandf.co.uk",
+      "source": "v2fly/taylorfrancis"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "tandfonline.com",
+      "source": "v2fly/taylorfrancis"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "taylorandfrancis.com",
+      "source": "v2fly/taylorfrancis"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "taylorfrancis.com",
+      "source": "v2fly/taylorfrancis"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "1lib.cloud",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "1lib.cz",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "1lib.domains",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "1lib.education",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "1lib.eu",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "1lib.limited",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "1lib.pl",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "1lib.sk",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "1lib.to",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "1lib.tw",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "2lib.org",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "3lib.net",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "art1lib.com",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "b-ok.africa",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "b-ok.asia",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "b-ok.cc",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "b-ok.global",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "b-ok.org",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "book4you.org",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "bookfi.net",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "booksc.eu",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "booksc.me",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "booksc.org",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "booksc.xyz",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "bookshome.info",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "bookshome.net",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "bookshome.world",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "de1lib.org",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "dln1.ncdn.ec",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "hk1lib.org",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "libsolutions.app",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "libsolutions.domains",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "libsolutions.net",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ma1lib.org",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sg1lib.org",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "singlelogin.app",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "singlelogin.me",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "singlelogin.re",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "singlelogin.site",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "z-lib.fm",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "z-lib.gd",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "z-lib.gl",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "z-lib.org",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "z-library.sk",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "z-library.se",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "zlib.life",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "zlibcdn.com",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "zlibcdn2.com",
+      "source": "v2fly/z-library"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aacrjournals.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "academic.eb.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "acaric.co.jp",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aclweb.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "acm.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "acs.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "agu.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aiaa.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aimsciences.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "airiti.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "airitilibrary.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "alexanderstreet.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "alphaxiv.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "altmetric.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "amdigital.co.uk",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ams.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "analytictech.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "anatomy.tv",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "annualreviews.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aps.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "arabidopsis.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "artstor.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "arxiv.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ascelibrary.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "asha.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "asm.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "asme.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "asminternational.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "asn-online.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aspbjournals.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aspenpublishing.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "astm.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "berkeley.edu",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "biologists.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "biomedcentral.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "bioone.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "biorxiv.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "bloomsburycollections.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "bloomsburydesignlibrary.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "bmj.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "booksinprint.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "brepolis.net",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "brill.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "bvdinfo.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cairn.info",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "capitaliq.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cas.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ceicdata.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "chemnetbase.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "choicereviews.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cios.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cmu.edu",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cochranelibrary.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "computingreviews.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "csrankings.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "degruyter.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "dentalhypotheses.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ebsco.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ebscohost.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "electrochem.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "elgaronline.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "elifesciences.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "embase.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "emerald.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ems-ph.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "eurekaselect.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "europepmc.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "facultyopinions.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "frontiersin.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "gale.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "galegroup.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "geolytics.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ggsrv.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "global-sci.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "heinonline.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "highwirepress.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "hindawi.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "hotcrp.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "icevirtuallibrary.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "icsd.fiz-karlsruhe.de",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "igi-global.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "igpublish.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "hanzhen.xmulib.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "infolinker.com.tw",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "informs.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ioinformatics.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "iop.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "isca-speech.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "iwaponline.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "jamanetwork.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "japanknowledge.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "jbe-platform.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "jmlr.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "jneurosci.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "jove.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "jstage.jst.go.jp",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "jstor.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "karger.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "kuke.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "lawdata.com.tw",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "lexisnexis.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "literatumonline.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "mdpi.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "medrxiv.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "morganclaypool.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "nature.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "naturemag.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ncbi.nlm.nih.gov",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ncl.edu.tw",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "nejm.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "neurology.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "nii.ac.jp",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oecd-ilibrary.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "openreview.net",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "optica.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "osapublishing.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ovid.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "peerj.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "physiology.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "plos.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "pnas.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "princeton.edu",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "projecteuclid.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "researchgate.net",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "routledgehandbooks.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "royalsocietypublishing.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "rsc.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "rupress.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sae.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sagepub.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scholarpedia.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "science.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "science.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sciencemag.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scienceonline.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scientificamerican.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scitation.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "semanticscholar.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "siam.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sigcomm.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sigops.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "silverchair-cdn.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "spiedigitallibrary.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "statsmakemecry.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "thelancet.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "tickdata.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "thieme.de",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "thieme-connect.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "thieme-connect.de",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN",
+      "domain": "medone-education.thieme.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "totalmateria.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "uchicago.edu",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ucla.edu",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "umass.edu",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "usaco.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "usenix.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "westlaw.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "wiley.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "wolterskluwer.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "worldscientific.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "yale.edu",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "zenodo.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN",
+      "domain": "angle.com.tw",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN",
+      "domain": "beck-online.beck.de",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN",
+      "domain": "databank.worldbank.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN",
+      "domain": "database.asahi.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN",
+      "domain": "dl.begellhouse.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN",
+      "domain": "elib.maruzen.co.jp",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN",
+      "domain": "firstsearch.oclc.org",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN",
+      "domain": "muse.jhu.edu",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN",
+      "domain": "t21.nikkei.co.jp",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN",
+      "domain": "t21ipau.nikkei.co.jp",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN",
+      "domain": "ulrichsweb.serialssolutions.com",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN",
+      "domain": "wrds-www.wharton.upenn.edu",
+      "source": "v2fly/category-scholar-!cn"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "webofscience.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "webofknowledge.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "wokinfo.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "researcherid.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "clarivate.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "publons.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "endnote.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "getft.io",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "elsevier.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "elsevier.io",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "elsevierstatic.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sciencedirect.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sciencedirectassets.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "els-cdn.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scopus.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scival.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "mendeley.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "engineeringvillage.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "reaxys.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "embase.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "clinicalkey.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "knovel.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ssrn.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cell.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cellpress.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "thelancet.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "nature.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "natureportfolio.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "natureasia.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "natureindex.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "springernature.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "springer.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "springerlink.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "springeropen.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "springermaterials.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "palgrave.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "biomedcentral.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scientificamerican.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "beilstein-journals.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "chemistryviews.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "acs.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "silverchair-cdn.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "silverchair.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cas.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "stn.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "rsc.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "chemistryworld.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "wiley.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "wiley-vch.de",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "wileyplus.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "chemrxiv.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scienceopen.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "science.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sciencemag.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aaas.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "pnas.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "nasonline.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "royalsocietypublishing.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "royalsociety.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "annualreviews.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "elifesciences.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "plos.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "plosone.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "f1000research.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "tandfonline.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "taylorfrancis.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "routledge.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "crcpress.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "dovepress.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "peerj.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "informa.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oup.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordacademic.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oxfordjournals.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cambridge.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cambridgecore.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sagepub.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sagepub.co.uk",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "degruyter.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "degruyterbrill.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sciendo.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "brill.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "worldscientific.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "emerald.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "emeraldinsight.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ingentaconnect.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "projecteuclid.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "muse.jhu.edu",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "jstor.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "mitpressjournals.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ucpress.edu",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "dukeupress.edu",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scholarlypublishingcollective.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "physiology.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aacrjournals.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "microbiologyresearch.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "mdpi.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "frontiersin.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "hindawi.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "benthamscience.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scirp.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scientific.net",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "trans-tech-publications.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "edpsciences.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "edp-open.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "openedition.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "erudit.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cairn.info",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "persée.fr",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "persee.fr",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "begellhouse.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "bioone.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "allenpress.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "portlandpress.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ieee.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "computer.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "acm.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "siam.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ams.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "maa.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scitepress.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "usenix.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "neurips.cc",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "openreview.net",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "proceedings.mlr.press",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "jmlr.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aaai.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aps.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aip.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scitation.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "iop.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "optica.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "osapublishing.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "spie.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "spiedigitallibrary.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "osa.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ecsdl.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "electrochem.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "mrs.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "tms.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ceramics.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aiche.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "asme.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ascelibrary.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "asce.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sae.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "astm.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "iso.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "iet.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "thiet.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aappublications.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "psychiatryonline.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "psychnet.apa.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "nejm.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "jamanetwork.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "bmj.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cochranelibrary.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cochrane.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "nih.gov",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "europepmc.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "clinicaltrials.gov",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ovid.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ovidsp.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "lww.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "wolterskluwer.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "medknow.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "karger.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "thieme.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "thieme-connect.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "liebertpub.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "asm.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "asbmb.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "genetics.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "jove.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "biorxiv.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "medrxiv.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "agu.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "egu.eu",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "egusphere.net",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "copernicus.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "geoscienceworld.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "onepetro.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "seg.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ametsoc.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "agronomy.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "soils.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "crops.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "asabe.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "doi.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "crossref.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "datacite.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "orcid.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "dimensions.ai",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "lens.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "semanticscholar.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "openalex.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "unpaywall.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "altmetric.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scite.ai",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "connectedpapers.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "literature-graph.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "researchgate.net",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "academia.edu",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "zotero.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "readcube.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "papersapp.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "paperpile.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "proquest.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ebsco.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ebscohost.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "gale.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "osti.gov",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "inspirehep.net",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "manuscriptcentral.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "scholarone.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "editorialmanager.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "edmgr.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "ejmanager.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "reviewmanager.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "confex.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "exordo.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "openconf.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sciforum.net",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "arxiv.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "osf.io",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "researchsquare.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "zenodo.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "figshare.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "dryad.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "dataverse.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "datadryad.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "protocols.io",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "gigadb.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "wipo.int",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "epo.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "uspto.gov",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "espacenet.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "worldbank.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "oecd.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "unesco.org",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "jstage.jst.go.jp",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "airitilibrary.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "airiti.com",
+      "source": "用户候选清单"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aip.org",
+      "source": "上游学术来源补充"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "aps.org",
+      "source": "上游学术来源补充"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "iop.org",
+      "source": "上游学术来源补充"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "acm.org",
+      "source": "上游学术来源补充"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "cambridge.org",
+      "source": "上游学术来源补充"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "academic.oup.com",
+      "source": "上游学术来源补充"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "silverchair-cdn.com",
+      "source": "上游学术来源补充"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "els-cdn.com",
+      "source": "上游学术来源补充"
+    },
+    {
+      "type": "DOMAIN-SUFFIX",
+      "domain": "sciencedirectassets.com",
+      "source": "上游学术来源补充"
+    }
+  ]
+}
