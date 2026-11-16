@@ -1,0 +1,4 @@
+# Preserve the original Docker and container service matching in one ruleset.
+payload:
+  - GEOSITE,docker
+  - GEOSITE,category-container

@@ -6,9 +6,21 @@ ini = root.joinpath('cfg/Custom_Clash_Full.ini').read_text(encoding='utf-8')
 rules = re.findall(r'^ruleset=(.+)$', ini, re.M)
 groups = re.findall(r'^custom_proxy_group=(.+)$', ini, re.M)
 assert len(rules) == 64, len(rules)
-assert len(groups) == 64, len(groups)
+assert len(groups) == 63, len(groups)
 names = [g.split('`')[0] for g in groups]
-assert len(set(names)) == 64
+assert len(set(names)) == 63
+assert '🇳🇱 荷兰节点' not in names and '🇹🇷 土耳其节点' not in names
+assert '[]🇳🇱 荷兰节点' not in ini and '[]🇹🇷 土耳其节点' not in ini
+for name in ['🛑 广告过滤', '🍃 应用净化']:
+    assert next(g for g in groups if g.startswith(name + '`')).split('`')[1:] == ['select', '[]REJECT', '[]DIRECT']
+for filename, expected in {
+    'Developer_Container.yaml': ['GEOSITE,docker', 'GEOSITE,category-container'],
+    'Social_Media_IP.yaml': ['GEOIP,twitter,no-resolve', 'GEOIP,facebook,no-resolve'],
+}.items():
+    content = root.joinpath('rule', filename).read_text(encoding='utf-8')
+    assert re.findall(r'^  - (.+)$', content, re.M) == expected
+    assert any(filename in r for r in rules)
+assert not any(',[]OR,' in r for r in rules)
 assert '🔥 高倍率节点' in names and '🐢 低倍率节点' in names
 academic = next(g for g in groups if g.startswith('📚 学术资源`'))
 assert academic.startswith('📚 学术资源`select`[]🎯 全球直连`')
@@ -22,4 +34,4 @@ for required in ['nature.com', 'acs.org', 'rsc.org', 'wiley.com', 'science.org',
 yaml = root.joinpath('cfg/yaml/Custom_Clash_Full.yaml').read_text(encoding='utf-8')
 assert len(re.findall(r'^  - name:', yaml, re.M)) == 64
 assert 'example.invalid/placeholder' in yaml
-print('64 Full groups, 64 ordered rulesets, academic exclusions and companion YAML checks passed.')
+print('63 Full INI groups, 64 ordered rulesets, filtering groups, academic exclusions and companion YAML checks passed.')
