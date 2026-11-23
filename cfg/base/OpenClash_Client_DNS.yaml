@@ -1,0 +1,10 @@
+# OpenClash supplies DNS from the device configuration; a geographic DNS policy
+# here would override that choice independently of the selected traffic category.
+port: 7890
+socks-port: 7891
+allow-lan: true
+bind-address: '*'
+ipv6: false
+mode: Rule
+log-level: info
+external-controller: 127.0.0.1:9090
