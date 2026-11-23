@@ -3,6 +3,11 @@ from pathlib import Path
 import re
 root = Path(__file__).resolve().parent.parent
 ini = root.joinpath('cfg/Custom_Clash_Full.ini').read_text(encoding='utf-8')
+base_urls = re.findall(r'^clash_rule_base=(.+)$', ini, re.M)
+assert len(base_urls) == 1
+assert re.fullmatch(r'https://raw\.githubusercontent\.com/hadesp/Custom_OpenClash_Rules/[0-9a-f]{40}/cfg/base/OpenClash_Client_DNS\.yaml', base_urls[0])
+base = root.joinpath('cfg/base/OpenClash_Client_DNS.yaml').read_text(encoding='utf-8')
+assert not re.search(r'^dns\s*:', base, re.M), 'The cloud template must leave DNS configuration to OpenClash'
 rules = re.findall(r'^ruleset=(.+)$', ini, re.M)
 groups = re.findall(r'^custom_proxy_group=(.+)$', ini, re.M)
 assert len(rules) == 63, len(rules)
