@@ -5,10 +5,11 @@ root = Path(__file__).resolve().parent.parent
 ini = root.joinpath('cfg/Custom_Clash_Full.ini').read_text(encoding='utf-8')
 rules = re.findall(r'^ruleset=(.+)$', ini, re.M)
 groups = re.findall(r'^custom_proxy_group=(.+)$', ini, re.M)
-assert len(rules) == 64, len(rules)
-assert len(groups) == 63, len(groups)
+assert len(rules) == 63, len(rules)
+assert len(groups) == 62, len(groups)
 names = [g.split('`')[0] for g in groups]
-assert len(set(names)) == 63
+assert len(set(names)) == 62
+assert '非标端口' not in ini and 'Custom_Port_Direct' not in ini
 assert '🇳🇱 荷兰节点' not in names and '🇹🇷 土耳其节点' not in names
 assert '[]🇳🇱 荷兰节点' not in ini and '[]🇹🇷 土耳其节点' not in ini
 for name in ['🛑 广告过滤', '🍃 应用净化']:
@@ -32,6 +33,7 @@ for forbidden in ['DOMAIN-SUFFIX,edu\n', 'DOMAIN-SUFFIX,edu.cn', 'DOMAIN-SUFFIX,
 for required in ['nature.com', 'acs.org', 'rsc.org', 'wiley.com', 'science.org', 'sciencedirect.com', 'webofscience.com', 'silverchair-cdn.com', 'sciencedirectassets.com', 'els-cdn.com']:
     assert required in payload, required
 yaml = root.joinpath('cfg/yaml/Custom_Clash_Full.yaml').read_text(encoding='utf-8')
-assert len(re.findall(r'^  - name:', yaml, re.M)) == 64
+assert len(re.findall(r'^  - name:', yaml, re.M)) == 63
+assert '非标端口' not in yaml and 'Custom_Port_Direct' not in yaml
 assert 'example.invalid/placeholder' in yaml
-print('63 Full INI groups, 64 ordered rulesets, filtering groups, academic exclusions and companion YAML checks passed.')
+print('62 Full INI groups, 63 ordered rulesets, no port override, filtering groups, academic exclusions and companion YAML checks passed.')

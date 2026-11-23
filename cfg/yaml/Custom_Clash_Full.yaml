@@ -1081,11 +1081,6 @@ proxy-groups:
       - 🔥 高倍率节点
     use:
       - provider1
-  - name: 🔀 非标端口
-    type: select
-    proxies:
-      - 🐟 漏网之鱼
-      - 🎯 全球直连
   - name: 🇭🇰 香港节点
     type: url-test
     proxies:
@@ -1344,13 +1339,6 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_Classical.yaml
     path: ./rule_provider/r6.yaml
     interval: 28800
-  r7:
-    type: http
-    behavior: classical
-    format: yaml
-    url: https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Port_Direct.yaml
-    path: ./rule_provider/r7.yaml
-    interval: 28800
 rules:
   - GEOSITE,private,🎯 全球直连
   - GEOIP,private,🎯 全球直连,no-resolve
@@ -1414,5 +1402,4 @@ rules:
   - GEOSITE,geolocation-!cn,🌍 国外域名
   - GEOSITE,cn,🎯 全球直连
   - GEOIP,cn,🎯 全球直连,no-resolve
-  - RULE-SET,r7,🔀 非标端口
   - MATCH,🐟 漏网之鱼
