@@ -1357,42 +1357,42 @@ rule-providers:
     type: http
     behavior: domain
     format: yaml
-    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google-gemini.yaml
+    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/ai/google-gemini.yaml
     path: ./rule_provider/google-gemini.yaml
     interval: 28800
   anthropic:
     type: http
     behavior: domain
     format: yaml
-    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/anthropic.yaml
+    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/ai/anthropic.yaml
     path: ./rule_provider/anthropic.yaml
     interval: 28800
   bing:
     type: http
     behavior: domain
     format: yaml
-    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bing.yaml
+    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/ai/bing.yaml
     path: ./rule_provider/bing.yaml
     interval: 28800
   xai:
     type: http
     behavior: domain
     format: yaml
-    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/xai.yaml
+    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/ai/xai.yaml
     path: ./rule_provider/xai.yaml
     interval: 28800
   category-ai-cn:
     type: http
     behavior: domain
     format: yaml
-    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-cn.yaml
+    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/ai/category-ai-cn.yaml
     path: ./rule_provider/category-ai-cn.yaml
     interval: 28800
   category-ai-!cn:
     type: http
     behavior: domain
     format: yaml
-    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.yaml
+    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/ai/category-ai-!cn.yaml
     path: ./rule_provider/category-ai-!cn.yaml
     interval: 28800
   Emby_Full:

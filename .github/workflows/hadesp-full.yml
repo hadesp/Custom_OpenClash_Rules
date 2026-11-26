@@ -1,7 +1,7 @@
 name: Verify hadesp Full customization
 on:
   push:
-    paths: ['cfg/Custom_Clash_Full.ini', 'cfg/yaml/Custom_Clash_Full.yaml', 'rule/Academic_Overseas_No_Google.yaml', 'rule/Google_Scholar.yaml', 'rule/ChatGPT_Domain.yaml', 'rule/Gemini_Extra_Domain.yaml', 'rule/Emby_Full.yaml', 'rule/Shopping_Overseas.yaml', 'script/check-hadesp-full.py', '.github/workflows/hadesp-full.yml']
+    paths: ['cfg/Custom_Clash_Full.ini', 'cfg/yaml/Custom_Clash_Full.yaml', 'rule/Academic_Overseas_No_Google.yaml', 'rule/Google_Scholar.yaml', 'rule/ChatGPT_Domain.yaml', 'rule/Gemini_Extra_Domain.yaml', 'rule/Emby_Full.yaml', 'rule/Shopping_Overseas.yaml', 'rule/ai/**', 'py/update_full_ai_rules.py', 'py/test_update_full_ai_rules.py', 'script/check-hadesp-full.py', '.github/workflows/hadesp-full.yml']
   pull_request:
 permissions:
   contents: read
@@ -11,3 +11,4 @@ jobs:
     steps:
       - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
       - run: python3 script/check-hadesp-full.py
+      - run: python3 py/test_update_full_ai_rules.py

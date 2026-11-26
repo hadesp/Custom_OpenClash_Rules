@@ -47,9 +47,14 @@ for host in ['aws.amazon.com', 'msh.amazon.com', 'amazon.cn', 'amazon.com.evil.t
 ai_rules = [r for r in rules if r.startswith('🤖 ')]
 assert len(ai_rules) == 8
 assert all(',clash-domain:' in r and r.endswith(',28800') for r in ai_rules)
+assert all('https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/' in r for r in ai_rules)
 assert rules.index(ai_rules[-1]) < next(i for i, r in enumerate(rules) if 'Custom_Direct_Domain' in r)
 assert rules.index(next(r for r in ai_rules if r.startswith('🤖 Gemini,') and 'google-gemini.yaml' in r)) < rules.index(next(r for r in ai_rules if r.startswith('🤖 国外AI服务,')))
 assert not any(re.search(r',\[\]GEOSITE,(openai|google-gemini|anthropic|bing|xai|category-ai-!?cn)$', r) for r in rules)
+import sys
+sys.path.insert(0, str(root / 'py'))
+from update_full_ai_rules import check as check_ai_providers
+check_ai_providers(root)
 for filename, required_domains in {
     'ChatGPT_Domain.yaml': ['+.chatgpt.com', '+.openai.com', '+.oaistatic.com', '+.oaiusercontent.com', '+.chatgpt.livekit.cloud', 'cdn.openaimerge.com'],
     'Gemini_Extra_Domain.yaml': ['+.antigravity.google.com', 'businessaicode.googleapis.com', 'businessaicode.us.rep.googleapis.com', 'aiplatform.googleapis.com'],

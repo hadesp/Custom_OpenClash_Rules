@@ -1,0 +1,58 @@
+name: Update Full cloud AI rules
+
+on:
+  schedule:
+    # UTC 00:37, 08:37, 16:37; Beijing 08:37, 16:37, 00:37.
+    - cron: '37 */8 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['py/update_full_ai_rules.py', 'py/test_update_full_ai_rules.py', 'rule/ai/overrides.json', '.github/workflows/update-full-ai-rules.yml']
+
+permissions:
+  contents: read
+
+concurrency:
+  group: main-writers
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    if: github.repository == 'hadesp/Custom_OpenClash_Rules' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@6d4fd22b20465ccc0f7354476588e8df7c9ca0e0
+        with:
+          python-version: '3.13'
+      - name: Check updater failure handling
+        run: python py/test_update_full_ai_rules.py
+      - name: Download and validate a complete batch
+        run: |
+          python py/update_full_ai_rules.py
+          python py/update_full_ai_rules.py --check
+          python script/check-hadesp-full.py
+      - name: Publish only validated rule files
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          if [ "$(git rev-parse HEAD)" != "$(git rev-parse origin/main)" ]; then
+            echo 'main changed during validation; retaining the published version.' >&2
+            exit 1
+          fi
+          git add -- rule/ChatGPT_Domain.yaml rule/Gemini_Extra_Domain.yaml rule/ai/*.yaml
+          if git diff --cached --quiet; then
+            echo 'AI providers are already current.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh validated Full AI domain rules'
+          git push origin HEAD:main
