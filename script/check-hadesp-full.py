@@ -10,26 +10,33 @@ base = root.joinpath('cfg/base/OpenClash_Client_DNS.yaml').read_text(encoding='u
 assert not re.search(r'^dns\s*:', base, re.M), 'The cloud template must leave DNS configuration to OpenClash'
 rules = re.findall(r'^ruleset=(.+)$', ini, re.M)
 groups = re.findall(r'^custom_proxy_group=(.+)$', ini, re.M)
-assert len(rules) == 64, len(rules)
+assert len(rules) == 63 and len(rules) <= 64, len(rules)
 assert not any('.mrs' in r for r in rules), 'The deployed backend omits the required MRS provider format'
-assert len(groups) == 63, len(groups)
+assert len(groups) == 62, len(groups)
 names = [g.split('`')[0] for g in groups]
-assert len(set(names)) == 63
-doh_group = '🔒 DoH 代理`select`[]♻️ 自动选择`[]🇭🇰 香港节点`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🇼🇸 台湾节点`[]🇺🇸 美国节点`[]🇰🇷 韩国节点`[]🐢 低倍率节点`[]🏠 家宽节点`[]🚀 手动选择'
-assert groups[names.index('♻️ 自动选择') + 1] == doh_group
-assert '[]DIRECT' not in doh_group and '[]🎯 全球直连' not in doh_group
-assert rules[:3] == [
-    '🎯 全球直连,clash-classic:https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/Private_Direct.yaml,28800',
-    '🔒 DoH 代理,[]IP-CIDR,1.1.1.1/32,no-resolve',
-    '🔒 DoH 代理,[]IP-CIDR,8.8.8.8/32,no-resolve',
+assert len(set(names)) == 62
+assert '🔒 DoH 代理' not in ini
+assert 'Private_Direct.yaml' not in ini
+assert rules[:2] == [
+    '🎯 全球直连,[]GEOSITE,private',
+    '🎯 全球直连,[]GEOIP,private,no-resolve',
 ]
+for group in groups:
+    name, kind, *choices = group.split('`')
+    if kind == 'select':
+        if name == '🚀 手动选择':
+            assert choices[-1] == '.*' and choices.count('.*') == 1
+        else:
+            assert '.*' not in choices, name
+    for choice in choices:
+        if choice.startswith('[]') and choice[2:] not in ['DIRECT', 'REJECT']:
+            assert choice[2:] in names, (name, choice)
 assert '非标端口' not in ini and 'Custom_Port_Direct' not in ini
 assert '🇳🇱 荷兰节点' not in names and '🇹🇷 土耳其节点' not in names
 assert '[]🇳🇱 荷兰节点' not in ini and '[]🇹🇷 土耳其节点' not in ini
 for name in ['🛑 广告过滤', '🍃 应用净化']:
     assert next(g for g in groups if g.startswith(name + '`')).split('`')[1:] == ['select', '[]REJECT', '[]DIRECT']
 for filename, expected in {
-    'Private_Direct.yaml': ['GEOSITE,private', 'GEOIP,private,no-resolve'],
     'Download_Tracker_Direct.yaml': ['GEOSITE,category-game-platforms-download', 'GEOSITE,category-public-tracker'],
     'Developer_Container.yaml': ['GEOSITE,docker', 'GEOSITE,category-container'],
     'Social_Media_IP.yaml': ['GEOIP,twitter,no-resolve', 'GEOIP,facebook,no-resolve'],
@@ -78,6 +85,7 @@ for filename, required_domains in {
 assert '🔥 高倍率节点' in names and '🐢 低倍率节点' in names
 academic = next(g for g in groups if g.startswith('📚 学术资源`'))
 assert academic.startswith('📚 学术资源`select`[]🎯 全球直连`')
+assert academic.split('`').count('[]🎯 全球直连') == 1
 assert not any('category-scholar-!cn' in r for r in rules)
 assert any('Google_Scholar.yaml' in r for r in rules)
 payload = root.joinpath('rule/Academic_Overseas_No_Google.yaml').read_text(encoding='utf-8')
@@ -89,4 +97,4 @@ yaml = root.joinpath('cfg/yaml/Custom_Clash_Full.yaml').read_text(encoding='utf-
 assert len(re.findall(r'^  - name:', yaml, re.M)) == 63
 assert '非标端口' not in yaml and 'Custom_Port_Direct' not in yaml
 assert 'example.invalid/placeholder' in yaml
-print('63 Full INI groups, 64 ordered rulesets, dedicated DoH IP proxy rules, client-controlled DNS and academic checks passed.')
+print('62 Full INI groups, 63 ordered rulesets, manual-only SELECT node choices, client-controlled DNS and academic checks passed.')

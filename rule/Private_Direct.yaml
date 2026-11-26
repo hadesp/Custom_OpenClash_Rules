@@ -1,4 +1,0 @@
-# The two original adjacent private rules, with their original no-resolve flag.
-payload:
-  - GEOSITE,private
-  - GEOIP,private,no-resolve
