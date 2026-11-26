@@ -8,6 +8,7 @@
 - 通用自定义代理域名规则移到专用服务之后，修复 `onedrive.live.com`、`mtalk.google.com` 被手动选择组提前匹配的问题；原有代理补充域名继续保留。
 - Emby 保留上游服务端域名并补充 `emby.media`。
 - 国外电商保留上游分类并补充 Amazon 各区域购物首页与图片资源，购物首页正则不覆盖 AWS、Prime Video 子域名或中国站。
+- 修复在线二进制规则格式声明缺失。现有后端不会自动给 MRS 输入补写 `format: mrs`，实测会让对应规则集加载为 0 条；Full INI 改用同源 YAML，使输出能直接被 Mihomo 正确读取。
 
 ## 验证范围
 

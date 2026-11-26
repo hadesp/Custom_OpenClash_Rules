@@ -1307,9 +1307,9 @@ rule-providers:
   r2:
     type: http
     behavior: domain
-    format: mrs
-    url: https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Domain.mrs
-    path: ./rule_provider/r2.mrs
+    format: yaml
+    url: https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Direct_Domain.yaml
+    path: ./rule_provider/r2.yaml
     interval: 1800
   r3:
     type: http
@@ -1321,9 +1321,9 @@ rule-providers:
   r4:
     type: http
     behavior: domain
-    format: mrs
-    url: https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_Domain.mrs
-    path: ./rule_provider/r4.mrs
+    format: yaml
+    url: https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Custom_Proxy_Domain.yaml
+    path: ./rule_provider/r4.yaml
     interval: 28800
   r5:
     type: http
@@ -1356,44 +1356,44 @@ rule-providers:
   google-gemini:
     type: http
     behavior: domain
-    format: mrs
-    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google-gemini.mrs
-    path: ./rule_provider/google-gemini.mrs
+    format: yaml
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google-gemini.yaml
+    path: ./rule_provider/google-gemini.yaml
     interval: 28800
   anthropic:
     type: http
     behavior: domain
-    format: mrs
-    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/anthropic.mrs
-    path: ./rule_provider/anthropic.mrs
+    format: yaml
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/anthropic.yaml
+    path: ./rule_provider/anthropic.yaml
     interval: 28800
   bing:
     type: http
     behavior: domain
-    format: mrs
-    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bing.mrs
-    path: ./rule_provider/bing.mrs
+    format: yaml
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bing.yaml
+    path: ./rule_provider/bing.yaml
     interval: 28800
   xai:
     type: http
     behavior: domain
-    format: mrs
-    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/xai.mrs
-    path: ./rule_provider/xai.mrs
+    format: yaml
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/xai.yaml
+    path: ./rule_provider/xai.yaml
     interval: 28800
   category-ai-cn:
     type: http
     behavior: domain
-    format: mrs
-    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-cn.mrs
-    path: ./rule_provider/category-ai-cn.mrs
+    format: yaml
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-cn.yaml
+    path: ./rule_provider/category-ai-cn.yaml
     interval: 28800
   category-ai-!cn:
     type: http
     behavior: domain
-    format: mrs
-    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.mrs
-    path: ./rule_provider/category-ai-!cn.mrs
+    format: yaml
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.yaml
+    path: ./rule_provider/category-ai-!cn.yaml
     interval: 28800
   Emby_Full:
     type: http

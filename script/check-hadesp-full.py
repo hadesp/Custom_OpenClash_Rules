@@ -11,6 +11,7 @@ assert not re.search(r'^dns\s*:', base, re.M), 'The cloud template must leave DN
 rules = re.findall(r'^ruleset=(.+)$', ini, re.M)
 groups = re.findall(r'^custom_proxy_group=(.+)$', ini, re.M)
 assert len(rules) == 64, len(rules)
+assert not any('.mrs' in r for r in rules), 'The deployed backend omits the required MRS provider format'
 assert len(groups) == 62, len(groups)
 names = [g.split('`')[0] for g in groups]
 assert len(set(names)) == 62
@@ -27,7 +28,7 @@ for filename, expected in {
     assert re.findall(r'^  - (.+)$', content, re.M) == expected
     assert any(filename in r for r in rules)
 assert not any(',[]OR,' in r for r in rules)
-generic_proxy = next(i for i, r in enumerate(rules) if 'Custom_Proxy_Domain.mrs' in r)
+generic_proxy = next(i for i, r in enumerate(rules) if 'Custom_Proxy_Domain.yaml' in r)
 for service in ['💾 OneDrive', '📢 谷歌FCM']:
     assert next(i for i, r in enumerate(rules) if r.startswith(service + ',')) < generic_proxy
 for filename, required in {
@@ -47,7 +48,7 @@ ai_rules = [r for r in rules if r.startswith('🤖 ')]
 assert len(ai_rules) == 8
 assert all(',clash-domain:' in r and r.endswith(',28800') for r in ai_rules)
 assert rules.index(ai_rules[-1]) < next(i for i, r in enumerate(rules) if 'Custom_Direct_Domain' in r)
-assert rules.index(next(r for r in ai_rules if r.startswith('🤖 Gemini,') and 'google-gemini.mrs' in r)) < rules.index(next(r for r in ai_rules if r.startswith('🤖 国外AI服务,')))
+assert rules.index(next(r for r in ai_rules if r.startswith('🤖 Gemini,') and 'google-gemini.yaml' in r)) < rules.index(next(r for r in ai_rules if r.startswith('🤖 国外AI服务,')))
 assert not any(re.search(r',\[\]GEOSITE,(openai|google-gemini|anthropic|bing|xai|category-ai-!?cn)$', r) for r in rules)
 for filename, required_domains in {
     'ChatGPT_Domain.yaml': ['+.chatgpt.com', '+.openai.com', '+.oaistatic.com', '+.oaiusercontent.com', '+.chatgpt.livekit.cloud', 'cdn.openaimerge.com'],
