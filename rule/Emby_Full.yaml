@@ -1,0 +1,5 @@
+# Keep upstream Emby server coverage and include the official Emby website.
+# https://emby.media/
+payload:
+  - GEOSITE,category-emby
+  - DOMAIN-SUFFIX,emby.media

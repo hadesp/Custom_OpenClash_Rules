@@ -1,0 +1,19 @@
+# Supplement the online google-gemini ruleset with verified Antigravity endpoints.
+# Source: https://antigravity.google/docs/enterprise
+# Keep matches scoped to Google AI; do not capture all googleapis.com or Google login.
+payload:
+  - +.antigravity.google.com
+  - businessaicode.googleapis.com
+  - businessaicode.us.rep.googleapis.com
+  - businessaicode.eu.rep.googleapis.com
+  - businessaicode.mtls.googleapis.com
+  - aiplatform.googleapis.com
+  - aiplatform.us.rep.googleapis.com
+  - aiplatform.eu.rep.googleapis.com
+  - aiplatform.mtls.googleapis.com
+  - discoveryengine.googleapis.com
+  - us-discoveryengine.googleapis.com
+  - eu-discoveryengine.googleapis.com
+  - discoveryengine.mtls.googleapis.com
+  - us-discoveryengine.mtls.googleapis.com
+  - eu-discoveryengine.mtls.googleapis.com

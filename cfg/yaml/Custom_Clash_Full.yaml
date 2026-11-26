@@ -1339,14 +1339,91 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/Aethersailor/Custom_OpenClash_Rules@main/rule/Steam_CDN_Classical.yaml
     path: ./rule_provider/r6.yaml
     interval: 28800
+  ChatGPT_Domain:
+    type: http
+    behavior: domain
+    format: yaml
+    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/ChatGPT_Domain.yaml
+    path: ./rule_provider/ChatGPT_Domain.yaml
+    interval: 28800
+  Gemini_Extra_Domain:
+    type: http
+    behavior: domain
+    format: yaml
+    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/Gemini_Extra_Domain.yaml
+    path: ./rule_provider/Gemini_Extra_Domain.yaml
+    interval: 28800
+  google-gemini:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google-gemini.mrs
+    path: ./rule_provider/google-gemini.mrs
+    interval: 28800
+  anthropic:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/anthropic.mrs
+    path: ./rule_provider/anthropic.mrs
+    interval: 28800
+  bing:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/bing.mrs
+    path: ./rule_provider/bing.mrs
+    interval: 28800
+  xai:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/xai.mrs
+    path: ./rule_provider/xai.mrs
+    interval: 28800
+  category-ai-cn:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-cn.mrs
+    path: ./rule_provider/category-ai-cn.mrs
+    interval: 28800
+  category-ai-!cn:
+    type: http
+    behavior: domain
+    format: mrs
+    url: https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/category-ai-!cn.mrs
+    path: ./rule_provider/category-ai-!cn.mrs
+    interval: 28800
+  Emby_Full:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/Emby_Full.yaml
+    path: ./rule_provider/Emby_Full.yaml
+    interval: 28800
+  Shopping_Overseas:
+    type: http
+    behavior: classical
+    format: yaml
+    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/Shopping_Overseas.yaml
+    path: ./rule_provider/Shopping_Overseas.yaml
+    interval: 28800
 rules:
   - GEOSITE,private,🎯 全球直连
   - GEOIP,private,🎯 全球直连,no-resolve
   - RULE-SET,Google_Scholar,🇬 谷歌服务
   - RULE-SET,Academic_Overseas_No_Google,📚 学术资源
+  - RULE-SET,ChatGPT_Domain,🤖 ChatGPT
+  - RULE-SET,Gemini_Extra_Domain,🤖 Gemini
+  - RULE-SET,google-gemini,🤖 Gemini
+  - RULE-SET,anthropic,🤖 Claude
+  - RULE-SET,bing,🤖 Copilot
+  - RULE-SET,xai,🤖 Grok
+  - RULE-SET,category-ai-cn,🤖 国内AI服务
+  - RULE-SET,category-ai-!cn,🤖 国外AI服务
   - RULE-SET,r2,🎯 全球直连
   - RULE-SET,r3,🎯 全球直连
-  - RULE-SET,r4,🚀 手动选择
   - RULE-SET,r5,🚀 手动选择
   - GEOSITE,category-games@cn,🎯 全球直连
   - RULE-SET,r6,🎯 全球直连
@@ -1357,15 +1434,8 @@ rules:
   - GEOSITE,telegram,📨 Telegram
   - GEOSITE,discord,🎧 Discord
   - GEOSITE,category-communication,💬 即时通讯
-  - GEOSITE,xai,🤖 Grok
   - GEOSITE,category-social-media-!cn,🌐 社交媒体
-  - GEOSITE,openai,🤖 ChatGPT
   - GEOSITE,onedrive,💾 OneDrive
-  - GEOSITE,bing,🤖 Copilot
-  - GEOSITE,anthropic,🤖 Claude
-  - GEOSITE,google-gemini,🤖 Gemini
-  - GEOSITE,category-ai-!cn,🤖 国外AI服务
-  - GEOSITE,category-ai-cn,🤖 国内AI服务
   - GEOSITE,docker,📦 容器服务
   - GEOSITE,category-container,📦 容器服务
   - GEOSITE,github,🚀 GitHub
@@ -1383,7 +1453,7 @@ rules:
   - GEOSITE,disney,🎥 DisneyPlus
   - GEOSITE,hbo,🎥 HBO
   - GEOSITE,primevideo,🎥 PrimeVideo
-  - GEOSITE,category-emby,🎥 Emby
+  - RULE-SET,Emby_Full,🎥 Emby
   - GEOSITE,spotify,🎻 Spotify
   - GEOSITE,bahamut,📺 Bahamut
   - GEOSITE,category-games,🎮 游戏平台
@@ -1391,8 +1461,9 @@ rules:
   - GEOSITE,category-entertainment,🌎 国外媒体
   - GEOSITE,category-pt,⏬ PT站点
   - GEOSITE,paypal,💳 PayPal
-  - GEOSITE,category-ecommerce,🛒 国外电商
+  - RULE-SET,Shopping_Overseas,🛒 国外电商
   - GEOSITE,category-cryptocurrency,🪙 加密货币
+  - RULE-SET,r4,🚀 手动选择
   - GEOSITE,gfw,🚀 手动选择
   - GEOIP,telegram,📨 Telegram,no-resolve
   - GEOIP,twitter,🌐 社交媒体,no-resolve

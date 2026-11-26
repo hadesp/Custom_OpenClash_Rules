@@ -10,7 +10,7 @@ base = root.joinpath('cfg/base/OpenClash_Client_DNS.yaml').read_text(encoding='u
 assert not re.search(r'^dns\s*:', base, re.M), 'The cloud template must leave DNS configuration to OpenClash'
 rules = re.findall(r'^ruleset=(.+)$', ini, re.M)
 groups = re.findall(r'^custom_proxy_group=(.+)$', ini, re.M)
-assert len(rules) == 63, len(rules)
+assert len(rules) == 64, len(rules)
 assert len(groups) == 62, len(groups)
 names = [g.split('`')[0] for g in groups]
 assert len(set(names)) == 62
@@ -27,6 +27,38 @@ for filename, expected in {
     assert re.findall(r'^  - (.+)$', content, re.M) == expected
     assert any(filename in r for r in rules)
 assert not any(',[]OR,' in r for r in rules)
+generic_proxy = next(i for i, r in enumerate(rules) if 'Custom_Proxy_Domain.mrs' in r)
+for service in ['💾 OneDrive', '📢 谷歌FCM']:
+    assert next(i for i, r in enumerate(rules) if r.startswith(service + ',')) < generic_proxy
+for filename, required in {
+    'Emby_Full.yaml': ['GEOSITE,category-emby', 'DOMAIN-SUFFIX,emby.media'],
+    'Shopping_Overseas.yaml': ['GEOSITE,category-ecommerce', 'DOMAIN-SUFFIX,media-amazon.com'],
+}.items():
+    content = root.joinpath('rule', filename).read_text(encoding='utf-8')
+    assert all(entry in content for entry in required)
+    assert any(filename in r for r in rules)
+shopping = root.joinpath('rule/Shopping_Overseas.yaml').read_text(encoding='utf-8')
+shopping_pattern = re.search(r'^  - DOMAIN-REGEX,(.+)$', shopping, re.M).group(1)
+for host in ['amazon.com', 'www.amazon.com', 'www.amazon.co.jp', 'amazon.com.be', 'amazon.ie', 'amazon.co.za']:
+    assert re.fullmatch(shopping_pattern, host), host
+for host in ['aws.amazon.com', 'msh.amazon.com', 'amazon.cn', 'amazon.com.evil.test', 'notamazon.com']:
+    assert not re.fullmatch(shopping_pattern, host), host
+ai_rules = [r for r in rules if r.startswith('🤖 ')]
+assert len(ai_rules) == 8
+assert all(',clash-domain:' in r and r.endswith(',28800') for r in ai_rules)
+assert rules.index(ai_rules[-1]) < next(i for i, r in enumerate(rules) if 'Custom_Direct_Domain' in r)
+assert rules.index(next(r for r in ai_rules if r.startswith('🤖 Gemini,') and 'google-gemini.mrs' in r)) < rules.index(next(r for r in ai_rules if r.startswith('🤖 国外AI服务,')))
+assert not any(re.search(r',\[\]GEOSITE,(openai|google-gemini|anthropic|bing|xai|category-ai-!?cn)$', r) for r in rules)
+for filename, required_domains in {
+    'ChatGPT_Domain.yaml': ['+.chatgpt.com', '+.openai.com', '+.oaistatic.com', '+.oaiusercontent.com', '+.chatgpt.livekit.cloud', 'cdn.openaimerge.com'],
+    'Gemini_Extra_Domain.yaml': ['+.antigravity.google.com', 'businessaicode.googleapis.com', 'businessaicode.us.rep.googleapis.com', 'aiplatform.googleapis.com'],
+}.items():
+    content = root.joinpath('rule', filename).read_text(encoding='utf-8')
+    domains = re.findall(r'^  - (.+)$', content, re.M)
+    assert len(domains) == len(set(domains))
+    assert set(required_domains).issubset(domains)
+    assert not set(domains).intersection(['+.google.com', '+.googleapis.com', '+.gstatic.com', '+.cloudflare.com', 'accounts.google.com'])
+    assert any(filename in r for r in ai_rules)
 assert '🔥 高倍率节点' in names and '🐢 低倍率节点' in names
 academic = next(g for g in groups if g.startswith('📚 学术资源`'))
 assert academic.startswith('📚 学术资源`select`[]🎯 全球直连`')
@@ -41,4 +73,4 @@ yaml = root.joinpath('cfg/yaml/Custom_Clash_Full.yaml').read_text(encoding='utf-
 assert len(re.findall(r'^  - name:', yaml, re.M)) == 63
 assert '非标端口' not in yaml and 'Custom_Port_Direct' not in yaml
 assert 'example.invalid/placeholder' in yaml
-print('62 Full INI groups, 63 ordered rulesets, no port override, filtering groups, academic exclusions and companion YAML checks passed.')
+print('62 Full INI groups, 64 ordered rulesets, online AI providers, no port override, client-controlled DNS and academic checks passed.')

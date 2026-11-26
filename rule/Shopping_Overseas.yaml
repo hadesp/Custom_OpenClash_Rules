@@ -1,0 +1,7 @@
+# Keep the upstream shopping category; add Amazon storefronts, not AWS or Prime Video.
+# https://sell.amazon.com/global-selling
+payload:
+  - GEOSITE,category-ecommerce
+  - DOMAIN-REGEX,^(www\.)?amazon\.(com|co\.jp|co\.uk|de|fr|it|es|ca|com\.au|com\.mx|com\.br|in|nl|se|pl|com\.be|sg|com\.tr|ae|sa|eg|co\.za|ie)$
+  - DOMAIN-SUFFIX,media-amazon.com
+  - DOMAIN-SUFFIX,ssl-images-amazon.com
