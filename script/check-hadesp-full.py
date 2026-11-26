@@ -12,15 +12,25 @@ rules = re.findall(r'^ruleset=(.+)$', ini, re.M)
 groups = re.findall(r'^custom_proxy_group=(.+)$', ini, re.M)
 assert len(rules) == 64, len(rules)
 assert not any('.mrs' in r for r in rules), 'The deployed backend omits the required MRS provider format'
-assert len(groups) == 62, len(groups)
+assert len(groups) == 63, len(groups)
 names = [g.split('`')[0] for g in groups]
-assert len(set(names)) == 62
+assert len(set(names)) == 63
+doh_group = '🔒 DoH 代理`select`[]♻️ 自动选择`[]🇭🇰 香港节点`[]🇸🇬 新加坡节点`[]🇯🇵 日本节点`[]🇼🇸 台湾节点`[]🇺🇸 美国节点`[]🇰🇷 韩国节点`[]🐢 低倍率节点`[]🏠 家宽节点`[]🚀 手动选择'
+assert groups[names.index('♻️ 自动选择') + 1] == doh_group
+assert '[]DIRECT' not in doh_group and '[]🎯 全球直连' not in doh_group
+assert rules[:3] == [
+    '🎯 全球直连,clash-classic:https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/Private_Direct.yaml,28800',
+    '🔒 DoH 代理,[]IP-CIDR,1.1.1.1/32,no-resolve',
+    '🔒 DoH 代理,[]IP-CIDR,8.8.8.8/32,no-resolve',
+]
 assert '非标端口' not in ini and 'Custom_Port_Direct' not in ini
 assert '🇳🇱 荷兰节点' not in names and '🇹🇷 土耳其节点' not in names
 assert '[]🇳🇱 荷兰节点' not in ini and '[]🇹🇷 土耳其节点' not in ini
 for name in ['🛑 广告过滤', '🍃 应用净化']:
     assert next(g for g in groups if g.startswith(name + '`')).split('`')[1:] == ['select', '[]REJECT', '[]DIRECT']
 for filename, expected in {
+    'Private_Direct.yaml': ['GEOSITE,private', 'GEOIP,private,no-resolve'],
+    'Download_Tracker_Direct.yaml': ['GEOSITE,category-game-platforms-download', 'GEOSITE,category-public-tracker'],
     'Developer_Container.yaml': ['GEOSITE,docker', 'GEOSITE,category-container'],
     'Social_Media_IP.yaml': ['GEOIP,twitter,no-resolve', 'GEOIP,facebook,no-resolve'],
 }.items():
@@ -79,4 +89,4 @@ yaml = root.joinpath('cfg/yaml/Custom_Clash_Full.yaml').read_text(encoding='utf-
 assert len(re.findall(r'^  - name:', yaml, re.M)) == 63
 assert '非标端口' not in yaml and 'Custom_Port_Direct' not in yaml
 assert 'example.invalid/placeholder' in yaml
-print('62 Full INI groups, 64 ordered rulesets, online AI providers, no port override, client-controlled DNS and academic checks passed.')
+print('63 Full INI groups, 64 ordered rulesets, dedicated DoH IP proxy rules, client-controlled DNS and academic checks passed.')

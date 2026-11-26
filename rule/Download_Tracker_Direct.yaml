@@ -1,0 +1,4 @@
+# The two original adjacent direct rules; GeoSite data is still client supplied.
+payload:
+  - GEOSITE,category-game-platforms-download
+  - GEOSITE,category-public-tracker
