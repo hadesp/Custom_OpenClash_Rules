@@ -1343,56 +1343,56 @@ rule-providers:
     type: http
     behavior: domain
     format: yaml
-    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/ChatGPT_Domain.yaml
+    url: https://hadesp-sub-convert.hades-szhp.workers.dev/rules/ai/ChatGPT_Domain.yaml
     path: ./rule_provider/ChatGPT_Domain.yaml
     interval: 28800
   Gemini_Extra_Domain:
     type: http
     behavior: domain
     format: yaml
-    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/Gemini_Extra_Domain.yaml
+    url: https://hadesp-sub-convert.hades-szhp.workers.dev/rules/ai/Gemini_Extra_Domain.yaml
     path: ./rule_provider/Gemini_Extra_Domain.yaml
     interval: 28800
   google-gemini:
     type: http
     behavior: domain
     format: yaml
-    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/ai/google-gemini.yaml
+    url: https://hadesp-sub-convert.hades-szhp.workers.dev/rules/ai/google-gemini.yaml
     path: ./rule_provider/google-gemini.yaml
     interval: 28800
   anthropic:
     type: http
     behavior: domain
     format: yaml
-    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/ai/anthropic.yaml
+    url: https://hadesp-sub-convert.hades-szhp.workers.dev/rules/ai/anthropic.yaml
     path: ./rule_provider/anthropic.yaml
     interval: 28800
   bing:
     type: http
     behavior: domain
     format: yaml
-    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/ai/bing.yaml
+    url: https://hadesp-sub-convert.hades-szhp.workers.dev/rules/ai/bing.yaml
     path: ./rule_provider/bing.yaml
     interval: 28800
   xai:
     type: http
     behavior: domain
     format: yaml
-    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/ai/xai.yaml
+    url: https://hadesp-sub-convert.hades-szhp.workers.dev/rules/ai/xai.yaml
     path: ./rule_provider/xai.yaml
     interval: 28800
   category-ai-cn:
     type: http
     behavior: domain
     format: yaml
-    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/ai/category-ai-cn.yaml
+    url: https://hadesp-sub-convert.hades-szhp.workers.dev/rules/ai/category-ai-cn.yaml
     path: ./rule_provider/category-ai-cn.yaml
     interval: 28800
   category-ai-!cn:
     type: http
     behavior: domain
     format: yaml
-    url: https://raw.githubusercontent.com/hadesp/Custom_OpenClash_Rules/main/rule/ai/category-ai-!cn.yaml
+    url: https://hadesp-sub-convert.hades-szhp.workers.dev/rules/ai/category-ai-!cn.yaml
     path: ./rule_provider/category-ai-!cn.yaml
     interval: 28800
   Emby_Full:

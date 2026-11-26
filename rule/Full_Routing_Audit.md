@@ -18,5 +18,6 @@
 - 测试包含 AI、学术及 Google Scholar、开发者、即时通讯、OneDrive、Google FCM、流媒体、游戏平台、测速、电商、加密货币、广告、私网/国内地址、Telegram/Google/Netflix/社交媒体 IP 和未知域名兜底。
 - 核对 ChatGPT 与 Antigravity 相似但不属于其域名的主机名，确认没有扩大为整个 Google API 或 Cloudflare 域名。
 - 南大、校园网或运营商 DNS 地址不写入云端模板，客户端 DNS 控制方式保持不变。
+- AI Rule Provider 改由现有 Worker 自动获取并校验上游，失败时使用有效缓存或已验证后备数据，不依赖 GitHub Actions 能执行。
 
 这些检查验证规则加载及分类命中，不代表已验证所有账号、地区、节点、登录、付费权限或语音功能均可用。
